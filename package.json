@@ -1,5 +1,5 @@
 {
-  "name": "react-poker",
+  "name": "@ethpoker/react-poker",
   "version": "0.0.76",
   "description": "React component for dealing cards",
   "main": "dist/react-poker.js",
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/therewillbecode/react-deck.git"
+    "url": "git+https://github.com/ethpoker/react-poker.git"
   },
   "keywords": ["react", "deck", "cards", "poker"],
   "author": "therewillbecode",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/therewillbecode/react-deck/issues"
+    "url": "https://github.com/ethpoker/react-pocker/issues"
   },
   "jest": {
     "collectCoverageFrom": ["src/**/*.{js,jsx}"],
@@ -39,7 +39,6 @@
       "^react-native$": "react-native-web"
     }
   },
-  "homepage": "http://therewillbecode.github.io/react-poker",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
