@@ -11,7 +11,7 @@ module.exports = {
 
   output: {
     library: "react-poker",
-    libraryTarget: "umd",
+    libraryTarget: "commonjs2",
     path: __dirname + "/dist/",
     filename: "react-poker.js"
     /*
