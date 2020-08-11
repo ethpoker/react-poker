@@ -6,11 +6,18 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
  * This is the Webpack configuration file for dev.
  */
 module.exports = {
-  entry: "./example/index.js",
+  // entry: "./example/index.js",
+  entry: "./src/Deck.js",
 
   output: {
+    library: "react-poker",
+    libraryTarget: "umd",
+    path: __dirname + "/dist/",
+    filename: "react-poker.js"
+    /*
     path: path.resolve("site"),
     filename: "demo.js"
+    */
   },
   plugins: [
     new ExtractTextPlugin("styles.css"),
